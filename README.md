@@ -13,7 +13,7 @@ But it's better to configure that **launcher** to be invoked at boot time. This 
           @reboot .nvm/versions/node/v6.1.0/lib/node_modules/forever/bin/forever start /home/ec2-user/AWS_IoT_WebStorm/bin/www
            
            sevilan@debian:/usr/share/nginx/html$ crontab -l
-           @reboot .nvm/versions/node/v6.2.0/bin/forever start Code/WebstormProjects/AWS_IoT_WebStorm/bin/www
+           @reboot .nvm/versions/node/v6.2.0/bin/forever start /home/sevilan/Code/WebstormProjects/AWS_IoT_WebStorm/bin/www
 
 
 
