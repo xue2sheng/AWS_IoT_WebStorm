@@ -12,8 +12,9 @@ But it's better to configure that **launcher** to be invoked at boot time. This 
           [ec2-user@ip-172-31-43-186 etc]$ crontab -l
           @reboot .nvm/versions/node/v6.1.0/lib/node_modules/forever/bin/forever start /home/ec2-user/AWS_IoT_WebStorm/bin/www
            
-           sevilan@debian:/usr/share/nginx/html$ sudo crontab -l
-           @reboot /home/sevilan/.nvm/versions/node/v6.2.0/bin/forever start /home/sevilan/.nvm/versions/node/v6.2.0/bin/forever
+           sevilan@debian:/usr/share/nginx/html$ crontab -l
+           @reboot .nvm/versions/node/v6.2.0/bin/forever start Code/WebstormProjects/AWS_IoT_WebStorm/bin/www
+
 
 
 ## Basic NGINX configuration
