@@ -1,5 +1,5 @@
 # AWS_IoT_WebStorm
-Very basic example of AWS IoT server developed with WebStorm IDE
+Very basic example of AWS IoT server developed with WebStorm IDE. It focus on connecting to ['Shadows'](https://github.com/aws/aws-iot-device-sdk-js) instead of **'things'**. Please, have a look at [AWS IoT tutorial](https://eu-west-1.console.aws.amazon.com/iot/home?region=eu-west-1#/tutorial/help?step=1)
 
 ## Server nodejs
 Don't forget to launch this *nodejs* server. For example, you might use **forever** nodejs utility and getting your nodejs server running:
